@@ -6,7 +6,7 @@
 
 ## 一键脚本 One click to go
 ```shell
-https://raw.githubusercontent.com/ystx8/NeverIdle/master/baohuo.sh
+bash <(curl -s -L https://raw.githubusercontent.com/ystx8/NeverIdle/master/baohuo.sh)
 ```
 ```shell
 bash <(curl -s -L https://gist.githubusercontent.com/Ansen/e45320205faf5786d3282ac880f20bab/raw/onekey-NeverIdle.sh)
