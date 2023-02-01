@@ -31,7 +31,7 @@ function download_and_run() {
     [[ $? -ne 0 ]] && log "Download ${filename} failed" && exit 1
 
     chmod +x ${download_dir}/NeverIdle
-    local mem_test='-m 5'
+    local mem_test='-m 6'
     if [[ $mem_total -lt 4 ]]
     then
         log "AMD doesn't need to test memory !"
@@ -41,7 +41,7 @@ function download_and_run() {
         log "The memory test size is 3G"
         local mem_test='-m 3'
     else
-        log "The memory test size is 5G"
+        log "The memory test size is 6G"
     fi
     nohup ${download_dir}/NeverIdle -c 1h18m28s ${mem_test} -n 3h > ${download_dir}/NeverIdle.log 2>&1 &
     local pid=$(pgrep NeverIdle)
