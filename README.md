@@ -5,7 +5,9 @@
 本程序随手写的，下面介绍也是随心写的，不喜勿碰。
 
 ## 一键脚本 One click to go
-
+```shell
+https://raw.githubusercontent.com/ystx8/NeverIdle/master/baohuo.sh
+```
 ```shell
 bash <(curl -s -L https://gist.githubusercontent.com/Ansen/e45320205faf5786d3282ac880f20bab/raw/onekey-NeverIdle.sh)
 ```
